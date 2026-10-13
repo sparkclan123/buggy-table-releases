@@ -1,6 +1,6 @@
-# Table Por downloads
+# buggy-table downloads
 
-This repository distributes Table Por installers and signed update manifests.
+This repository distributes buggy-table installers and signed update manifests.
 
 **No public release has been published yet.** Installers will appear on the [Releases page](https://github.com/sparkclan123/buggy-table-releases/releases) after signing and validation.
 
