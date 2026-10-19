@@ -1,18 +1,18 @@
 # buggy-table downloads
 
-Download [buggy-table 0.1.6 — Preview](https://github.com/sparkclan123/buggy-table-releases/releases/tag/v0.1.6) for Mac Apple Silicon, Mac Intel or Windows x64.
+Download [buggy-table 0.1.7 — Preview](https://github.com/sparkclan123/buggy-table-releases/releases/tag/v0.1.7) for Mac Apple Silicon, Mac Intel or Windows x64.
 
-This release reduces PostgreSQL metadata round trips, restores tables containing JSON/JSONB, supported arrays and enums to the schema browser, adds Refresh schema, and displays total query operation time. See the release notes for test results and remaining execution restrictions.
+This release adds highlighted cell drafts and staged row deletions, timestamp pickers, local column ordering, 50/100/250/500-row pages, optional exact counts, collapsible controls and full-value display. It also reduces PostgreSQL metadata work and fixes MySQL connection diagnostics and Redis key browsing, with real snapshot charts for all three engines. See the release notes for details and validation.
 
-**Preview: install manually.** Versions 0.1.4–0.1.6 have in-app updates disabled. Publishing a release cannot turn on the updater in an already-installed app. Finish or discard unsaved edits, close buggy-table, and replace the app using the installer below. Keep the existing app data folder to retain saved connection settings.
+**Preview: install manually.** Versions 0.1.4–0.1.7 have in-app updates disabled. Publishing a release cannot turn on the updater in an already-installed app. Finish or discard unsaved edits, close buggy-table, and replace the app using the installer below. Keep the existing app data folder to retain saved connection settings.
 
 ## Download
 
-- [Mac Apple Silicon (M series)](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.6/buggy-table_0.1.6_aarch64.dmg)
-- [Mac Intel](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.6/buggy-table_0.1.6_x64.dmg)
-- [Windows x64](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.6/buggy-table_0.1.6_x64-setup.exe)
-- [SHA-256 checksums](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.6/SHA256SUMS.txt)
-- [Build provenance](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.6/BUILD_INFO.txt)
+- [Mac Apple Silicon (M series)](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.7/buggy-table_0.1.7_aarch64.dmg)
+- [Mac Intel](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.7/buggy-table_0.1.7_x64.dmg)
+- [Windows x64](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.7/buggy-table_0.1.7_x64-setup.exe)
+- [SHA-256 checksums](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.7/SHA256SUMS.txt)
+- [Build provenance](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.7/BUILD_INFO.txt)
 
 ## Install and preview limits
 
@@ -22,7 +22,7 @@ Windows: run the EXE installer and use the existing installation location. The i
 
 ## Available features
 
-PostgreSQL browsing and permitted manual cell edits, read-only MySQL/Redis access, table tabs, filters, sorting, resizable columns, SQL editor, saved local connections with optional OS password storage, PostgreSQL schema dropdown and refresh, and Light/Dark/System appearance. AI chat is not enabled in this preview. This is not a production-certified release.
+PostgreSQL browsing and permitted manual cell edits/staged row deletions, read-only MySQL/Redis access, table tabs with Cmd/Ctrl+W, symbolic filters and timestamp pickers, sorting, resizable/reorderable columns, pagination and optional counts, SQL editor, database snapshot charts, saved local connections with optional OS password storage, PostgreSQL schema dropdown and refresh, and Light/Dark/System appearance. AI chat is not enabled in this preview. This is not a production-certified release.
 
 ## Future signed releases
 
