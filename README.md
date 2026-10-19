@@ -1,23 +1,28 @@
 # buggy-table downloads
 
-> **Known macOS installation blocker:** The 0.1.5 preview can still show “damaged” with only Move to Trash. Open Anyway is not guaranteed. It has a complete ad-hoc signature but no Apple Developer ID/notarization, so it is not ready for normal Mac distribution. A notarized build is not available yet.
+Download [buggy-table 0.1.6 — Preview](https://github.com/sparkclan123/buggy-table-releases/releases/tag/v0.1.6) for Mac Apple Silicon, Mac Intel or Windows x64.
 
-Download [buggy-table 0.1.5 — Preview](https://github.com/sparkclan123/buggy-table-releases/releases/tag/v0.1.5).
+This release reduces PostgreSQL metadata round trips, restores tables containing JSON/JSONB, supported arrays and enums to the schema browser, adds Refresh schema, and displays total query operation time. See the release notes for test results and remaining execution restrictions.
 
-Mac 0.1.5 fixes bundle integrity only; it does not fix Gatekeeper acceptance. Windows remains on 0.1.4. This is a free test release. It has **no Apple Developer ID/notarization or Windows Authenticode certificate**, so the operating system may warn or block it. In-app updates are **disabled** in this preview. Install the next version manually.
+**Preview: install manually.** Versions 0.1.4–0.1.6 have in-app updates disabled. Publishing a release cannot turn on the updater in an already-installed app. Finish or discard unsaved edits, close buggy-table, and replace the app using the installer below. Keep the existing app data folder to retain saved connection settings.
 
 ## Download
 
-- [Mac Apple Silicon (M series)](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.5/buggy-table_0.1.5_aarch64.dmg)
-- [Mac Intel](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.5/buggy-table_0.1.5_x64.dmg)
-- [Windows x64 (0.1.4)](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.4/buggy-table_0.1.4_x64-setup.exe)
-- [SHA-256 checksums](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.5/SHA256SUMS.txt)
+- [Mac Apple Silicon (M series)](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.6/buggy-table_0.1.6_aarch64.dmg)
+- [Mac Intel](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.6/buggy-table_0.1.6_x64.dmg)
+- [Windows x64](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.6/buggy-table_0.1.6_x64-setup.exe)
+- [SHA-256 checksums](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.6/SHA256SUMS.txt)
+- [Build provenance](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.6/BUILD_INFO.txt)
 
-Mac: open the DMG and drag buggy-table into Applications, replacing the older app. Mac previews now have complete ad-hoc signatures, but are **not notarized or signed with Apple Developer ID**. After attempting to open the app, **only if macOS offers Open Anyway** and you trust this download, you may follow **System Settings → Privacy & Security → Open Anyway → Open** ([Apple instructions](https://support.apple.com/en-us/102445)). Do not disable Gatekeeper. If it still reports “damaged”, stop and check the SHA-256 checksum; report your macOS version and chip. Replacing the app keeps saved connection settings; do not remove its Application Support folder. Windows: open the EXE installer. Node.js and Rust are not required for users. If your device policy blocks unsigned applications, contact your administrator.
+## Install and preview limits
+
+Mac: open the DMG and drag buggy-table into Applications, replacing the older app. The apps have complete ad-hoc signatures, but **no Apple Developer ID or notarization**. macOS may still show “damaged” with only Move to Trash; Open Anyway is not guaranteed. If macOS offers Open Anyway and you trust this download, follow [Apple's instructions](https://support.apple.com/en-us/102445). Do not disable Gatekeeper. If the app reports “damaged”, check the SHA-256 checksum and report your macOS version and chip. A Developer ID signed and notarized release is required for normal Mac distribution.
+
+Windows: run the EXE installer and use the existing installation location. The installer has **no Authenticode certificate** and may show an unknown-publisher or SmartScreen warning. Managed devices may block unsigned apps. Node.js and Rust are not required for users.
 
 ## Available features
 
-PostgreSQL browsing and permitted manual cell edits, read-only MySQL/Redis access, table tabs, filters, sorting, resizable columns, SQL editor, saved local connections with optional OS password storage, PostgreSQL schema dropdown, and a compact Light/Dark/System icon beside the app version. AI chat is not enabled in this preview. This is not a production-certified release.
+PostgreSQL browsing and permitted manual cell edits, read-only MySQL/Redis access, table tabs, filters, sorting, resizable columns, SQL editor, saved local connections with optional OS password storage, PostgreSQL schema dropdown and refresh, and Light/Dark/System appearance. AI chat is not enabled in this preview. This is not a production-certified release.
 
 ## Future signed releases
 
