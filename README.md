@@ -1,20 +1,20 @@
 # buggy-table downloads
 
-Download [buggy-table 0.1.11 — Preview](https://github.com/sparkclan123/buggy-table-releases/releases/tag/v0.1.11) for Mac Apple Silicon, Mac Intel or Windows x64.
+Download [buggy-table 0.1.12 — Preview](https://github.com/sparkclan123/buggy-table-releases/releases/tag/v0.1.12) for Mac Apple Silicon, Mac Intel or Windows x64.
 
-This release adds isolated OpenVPN per database connection: a compact switch, saved profiles and defaults, VPN status, TCP route checks and reconnect. Different VPNs can use overlapping private hostnames/IPs without replacing the device's network configuration. Existing editing shortcuts, row copying, table features and PostgreSQL connection reuse remain included.
+This release fixes importing OpenVPN profiles with `push-peer-info`; keep that directive in your `.ovpn` file. It also clarifies unsupported-option errors. Includes isolated OpenVPN per database connection: a compact switch, saved profiles and defaults, VPN status, TCP route checks and reconnect. Different VPNs can use overlapping private hostnames/IPs without replacing the device's network configuration. Existing editing shortcuts, row copying, table features and PostgreSQL connection reuse remain included.
 
-**VPN requires Docker Desktop running with Linux containers.** First use prepares the runtime and may take several minutes; later connections reuse it. Connections with VPN disabled do not need Docker. Import inline OpenVPN TUN profiles; TAP, external key/certificate files, browser SSO and interactive MFA are not supported. See the [VPN setup guide](https://github.com/sparkclan123/buggy-table/blob/preview/v0.1.11/docs/CONNECTIONS.md).
+**VPN requires Docker Desktop running with Linux containers.** First use prepares the runtime and may take several minutes; later connections reuse it. Connections with VPN disabled do not need Docker. Import inline OpenVPN TUN profiles; TAP, external key/certificate files, browser SSO and interactive MFA are not supported. See the [VPN setup guide](https://github.com/sparkclan123/buggy-table/blob/preview/v0.1.12/docs/CONNECTIONS.md).
 
-**Preview: install manually.** Versions 0.1.4–0.1.11 have in-app updates disabled. The Updates button opens this downloads page. Publishing a release cannot turn on the updater in an already-installed app. Finish or discard unsaved edits, close buggy-table, and replace the app using the installer below. Keep the existing app data folder to retain saved connection settings.
+**Preview: install manually.** Versions 0.1.4–0.1.12 have in-app updates disabled. The Updates button opens this downloads page. Publishing a release cannot turn on the updater in an already-installed app. Finish or discard unsaved edits, close buggy-table, and replace the app using the installer below. Keep the existing app data folder to retain saved connection settings.
 
 ## Download
 
-- [Mac Apple Silicon (M series)](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.11/buggy-table_0.1.11_aarch64.dmg)
-- [Mac Intel](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.11/buggy-table_0.1.11_x64.dmg)
-- [Windows x64](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.11/buggy-table_0.1.11_x64-setup.exe)
-- [SHA-256 checksums](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.11/SHA256SUMS.txt)
-- [Build provenance](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.11/BUILD_INFO.txt)
+- [Mac Apple Silicon (M series)](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.12/buggy-table_0.1.12_aarch64.dmg)
+- [Mac Intel](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.12/buggy-table_0.1.12_x64.dmg)
+- [Windows x64](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.12/buggy-table_0.1.12_x64-setup.exe)
+- [SHA-256 checksums](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.12/SHA256SUMS.txt)
+- [Build provenance](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.12/BUILD_INFO.txt)
 
 ## Install and preview limits
 
