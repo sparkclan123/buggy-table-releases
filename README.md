@@ -1,20 +1,22 @@
 # buggy-table downloads
 
-Download [buggy-table 0.1.16 — Preview](https://github.com/sparkclan123/buggy-table-releases/releases/tag/v0.1.16) for Mac Apple Silicon, Mac Intel or Windows x64.
+Download [buggy-table 0.1.17 — Preview](https://github.com/sparkclan123/buggy-table-releases/releases/tag/v0.1.17) for Mac Apple Silicon, Mac Intel or Windows x64.
 
-OpenVPN is now built into the app. Each database can use its own isolated VPN without Docker Desktop, a separate VPN client or a network driver. Existing saved VPN profiles remain available. Switching connected databases keeps their tunnels and database sessions; private DNS and overlapping IP addresses remain separate. The app does not change your system routes or DNS, and VPN failures do not fall back to the normal network.
+PostgreSQL now connects without a required database name. Expand databases and schemas with +, then open the tables you need. Tabs, drafts and saves stay attached to their own database, and up to four idle connections are reused per server workspace. If no maintenance database is accessible, enter an accessible database name to start browsing.
 
-Import inline OpenVPN TUN profiles with certificates and optional username/password or encrypted key passwords. TAP, external key/certificate files, browser SSO and interactive MFA are not supported. See the [VPN setup guide](https://github.com/sparkclan123/buggy-table/blob/preview/v0.1.16/docs/CONNECTIONS.md).
+OpenVPN is built into the app. Each database can use its own isolated VPN without Docker Desktop, a separate VPN client or a network driver. Existing saved VPN profiles remain available. Switching connected databases keeps their tunnels and database sessions; private DNS and overlapping IP addresses remain separate. The app does not change your system routes or DNS, and VPN failures do not fall back to the normal network.
 
-**Preview: install manually.** Versions 0.1.4–0.1.16 have in-app updates disabled. The Updates button opens this downloads page. Publishing a release cannot turn on the updater in an already-installed app. Finish or discard unsaved edits, close buggy-table, and replace the app using the installer below. Keep the existing app data folder to retain saved connection settings.
+Import inline OpenVPN TUN profiles with certificates and optional username/password or encrypted key passwords. TAP, external key/certificate files, browser SSO and interactive MFA are not supported. See the [VPN setup guide](https://github.com/sparkclan123/buggy-table/blob/preview/v0.1.17/docs/CONNECTIONS.md).
+
+**Preview: install manually.** Versions 0.1.4–0.1.17 have in-app updates disabled. The Updates button opens this downloads page. Publishing a release cannot turn on the updater in an already-installed app. Finish or discard unsaved edits, close buggy-table, and replace the app using the installer below. Keep the existing app data folder to retain saved connection settings.
 
 ## Download
 
-- [Mac Apple Silicon (M series)](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.16/buggy-table_0.1.16_aarch64.dmg)
-- [Mac Intel](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.16/buggy-table_0.1.16_x64.dmg)
-- [Windows x64](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.16/buggy-table_0.1.16_x64-setup.exe)
-- [SHA-256 checksums](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.16/SHA256SUMS.txt)
-- [Build provenance](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.16/BUILD_INFO.txt)
+- [Mac Apple Silicon (M series)](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.17/buggy-table_0.1.17_aarch64.dmg)
+- [Mac Intel](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.17/buggy-table_0.1.17_x64.dmg)
+- [Windows x64](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.17/buggy-table_0.1.17_x64-setup.exe)
+- [SHA-256 checksums](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.17/SHA256SUMS.txt)
+- [Build provenance](https://github.com/sparkclan123/buggy-table-releases/releases/download/v0.1.17/BUILD_INFO.txt)
 
 ## Install and preview limits
 
@@ -24,7 +26,7 @@ Windows x64: run the EXE installer and use the existing installation location. T
 
 ## Available features
 
-PostgreSQL browsing and permitted manual INSERT/UPDATE/DELETE, read-only MySQL/Redis access, lazy MySQL database browsing without a required default database, reusable MySQL sessions and per-stage timings, table tabs with Cmd/Ctrl+W, symbolic filters and timestamp pickers, sorting, resizable/reorderable columns, read-only row details with formatted JSON, pagination and optional counts, SQL editor, database snapshot charts, saved local connections with optional OS password storage, PostgreSQL schema dropdown and refresh, and Light/Dark/System appearance. Copied rows stay unsaved until Save; generated keys are omitted, and required manual keys must be filled. AI chat is not enabled in this preview. This is not a production-certified release.
+PostgreSQL browsing and permitted manual INSERT/UPDATE/DELETE, read-only MySQL/Redis access, lazy PostgreSQL/MySQL database browsing without a required default database, reusable MySQL sessions and per-stage timings, table tabs with Cmd/Ctrl+W, symbolic filters and timestamp pickers, sorting, resizable/reorderable columns, read-only row details with formatted JSON, pagination and optional counts, SQL editor, database snapshot charts, saved local connections with optional OS password storage, PostgreSQL schema dropdown and refresh, and Light/Dark/System appearance. Copied rows stay unsaved until Save; generated keys are omitted, and required manual keys must be filled. AI chat is not enabled in this preview. This is not a production-certified release.
 
 ## Future signed releases
 
